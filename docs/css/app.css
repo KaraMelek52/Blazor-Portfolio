@@ -441,6 +441,11 @@ body.dark-theme .project-card {
     color: #f0e6f6;
     border-color: #333;
 }
+.project-list {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
 
 
 
