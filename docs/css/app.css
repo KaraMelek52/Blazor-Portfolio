@@ -1,8 +1,5 @@
 html, body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0
+    background-color: #121212; /* or whatever dark shade you had */
 }
 
 h1:focus {
@@ -400,6 +397,7 @@ body, .dark-theme, .light-theme {
     margin-right: auto;
     line-height: 1.6;
     display: inline-block;
+    width: 100%;
 }
 
 body.light-theme .project-heading {
