@@ -1,5 +1,5 @@
 html, body {
-    background-color: #121212; /* or whatever dark shade you had */
+    
 }
 
 h1:focus {
@@ -445,6 +445,8 @@ body.dark-theme .project-card {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
+    width: 100%;
+    background-color: #1e1e1e;
 }
 
 
