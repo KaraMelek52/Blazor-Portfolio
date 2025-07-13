@@ -1,5 +1,8 @@
 html, body {
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
 }
 
 h1:focus {
@@ -397,7 +400,6 @@ body, .dark-theme, .light-theme {
     margin-right: auto;
     line-height: 1.6;
     display: inline-block;
-    width: 100%;
 }
 
 body.light-theme .project-heading {
@@ -441,15 +443,13 @@ body.dark-theme .project-card {
     color: #f0e6f6;
     border-color: #333;
 }
+
 .project-list {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
     width: 100%;
-    background-color: #1e1e1e;
 }
-
-
 
 
 /* ---------------- Project Page CSS Codes END ---------------- */
